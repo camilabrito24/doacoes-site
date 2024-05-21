@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #FCFDFF;
+    color: #6C788E;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    gap: 24rem;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A6AEC1;
+    height: 70px;
+}
+
+.logo_pagina{
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FCFDFF;
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.item > a{
+    color: #6C788E;
+}
+
+.item:hover{
+    opacity: 100%;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    height: 28rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7rem;
+    margin: auto;
+    padding: 4rem 10rem;
+}
+
+.home-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque-menu{
+    font-size: 1rem;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    color: #A6AEC1;
+}
+
+h1{
+    font-size: 2.25rem;
+    width: 30rem;
+    font-weight: 800;
+}
+
+.home-subtitulo{
+    font-size: 1.25rem;
+    width: 30rem;
+    font-weight: 500;
+}
+
+hr{
+    width: 15rem;
+    border-color: #A6AEC1;
+}
+
+.home-imagens-container{
+    max-width: 40%;
+}
+
+.home-imagens-container > figure > img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao-container{
+    width: 100%;
+    margin: auto;
+    transform: translate(5%, 50%);
+}
+
+.botao-container > a > button{
+    border: none;
+    background-color: #A6AEC1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.botao-container > button:hover{
+    background-color: #6C788E;
+}
+
+.onde-doar{
+    background-color: #EDEDF2;
+    width: 100%;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.onde-doar-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titulo-texto{
+    font-size: 2rem;
+}
+
+.onde-doar-card-container{
+    padding: 2rem 12rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.onde-doar-card{
+    background-color: #FCFDFF;
+    width: 35rem;
+    height: 15rem;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.botao-card{
+    border: none;
+    background-color: #A6AEC1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #FCFDFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.botao-card:hover{
+    background-color: #6C788E;
+}
+
+.opcoes-card{
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    color: #6C788E;
+    text-align: center;
+}
+
+.opcoes-card:hover{
+    color: #A6AEC1;
+}
+
+.sobre-nos{
+    width: 100%;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.sobre-nos-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sobre-nos-conteudo{
+    text-align: center;
+}
+
+.sobre-nos-conteudo img{
+    width: 60%;
+}
+
+.paragrafo-texto{
+    font-family: "Epilogue", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contato{
+    background-color: #EDEDF2;
+    width: 100%;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.contato-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contato-conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+
+.contato-conteudo-formulario > form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.texto-base{
+    border: none;
+    background-color: #FCFDFF;
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    color: #A6AEC1;
+    padding: 1rem 33rem 1rem 1rem;
+}
+
+.texto-base::placeholder{
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    color: #A6AEC1;
+}
+
+.texto-base-mensagem{
+    border: none;
+    background-color: #FCFDFF;
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    color: #A6AEC1;
+    padding: 1rem 33rem 11rem 1rem;
+}
+
+.texto-base-mensagem::placeholder{
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    color: #A6AEC1;
+}
+
+.texto-base-botao{
+    background-color: #A6AEC1;
+    color: #FCFDFF;
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.texto-base-botao:hover{
+    background-color: #6C788E;
+}
+
+.contato-conteudo-texto > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.contato-conteudo-texto > ul > li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contato-conteudo-texto-header{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.contato-conteudo-texto-header > h3{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.texto-contato{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+
+footer{
+    background-color: #6C788E;
+    color: #FCFDFF;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.footer-opacity{
+    opacity: 70%;
+}
+
+.botao-container-up{
+    width: 100%;
+    margin: auto;
+    transform: translate(5%, 50%);
+}
+
+.botao-container-up > a > button{
+    border: none;
+    background-color: #A6AEC1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.botao-container-up > button:hover{
+    background-color: #6C788E;
+}

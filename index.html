@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Doações</title>
+    <meta name="description" content="Encontre diversos sites e ONGS e faça sua doação agora mesmo!">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="link-nav">
+            <span class="logo_pagina">PORTAL DE DOAÇÕES</span>
+            <ul class="menu_item">
+                <li class="item"><a href="#link-home">Home</a></li>
+                <li class="item"><a href="#link-onde-doar">Onde Doar</a></li>
+                <li class="item"><a href="#link-sobre-nos">Sobre Nós</a></li>
+                <li class="item"><a href="#link-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="link-home">
+            <header class="home-conteudo">
+                <span class="destaque-menu">HOME</span>
+                <h1>Encontre a causa perfeita para a sua doação!</h1>
+                <hr>
+                <h2 class="home-subtitulo">Encontre diversos sites e ONGS e faça sua doação!</h2>
+            </header>
+            <div class="home-imagens-container">
+                <figure><img src="assets/banner.jpg"/></figure>
+            </div>
+        </section>
+        <section class="botao-container">
+            <a href="#link-contato">
+                <button type="button">
+                    <img src="assets/seta-btn.png">
+                </button>
+            </a>
+        </section>
+        <section class="onde-doar" id="link-onde-doar">
+            <header class="onde-doar-cabecalho">
+                <span class="destaque-menu">ONDE DOAR</span>
+                <h2 class="titulo-texto">Confira as últimas ONGS cadastradas</h2>
+            </header>
+            <div class="onde-doar-card-container">
+                <div class="onde-doar-card">
+                    <img src="assets/logo1.png" width="160">
+                    <h3>CUFA - Central Unica das Favelas</h3>
+                    <a href="https://cufa.org.br/" target="_blank"><button class="botao-card">VISITAR SITE OFICIAL</button></a>
+                </div>
+                <div class="onde-doar-card">
+                    <img src="assets/logo2.webp" width="110">
+                    <h3>CORREIOS</h3>
+                    <a href="https://www.correios.com.br/" target="_blank"><button class="botao-card">VISITAR SITE OFICIAL</button></a>
+                </div>
+                <div class="onde-doar-card">
+                    <img src="assets/logo3.png" width="110">
+                    <h3>GRAD - Grupo de Resposta a Animais em Desastres</h3>
+                    <a href="https://gradbrasil.org.br/" target="_blank"><button class="botao-card">VISITAR SITE OFICIAL</button></a>
+                </div>
+                <div class="onde-doar-card">
+                    <img src="assets/logo4.webp" width="90">
+                    <h3>Ação da Cidadania</h3>
+                    <a href="https://www.acaodacidadania.org.br/" target="_blank"><button class="botao-card">VISITAR SITE OFICIAL</button></a>
+                </div>
+            </div>
+            <a href="." class="opcoes-card">Carregar mais opções...</a>
+        </section>
+        <section class="sobre-nos" id="link-sobre-nos">
+            <header class="sobre-nos-cabecalho">
+                <span class="destaque-menu">SOBRE NÓS</span>
+                <h2 class="titulo-texto">Confira abaixo algumas informações sobre nós</h2>
+            </header>
+            <div class="sobre-nos-conteudo">
+                <p class="paragrafo-texto">Esse site foi criado com o próposito de auxiliar as pessoas que buscam realizar doações, mas não possuem conhecimento dos sites e ONGS que aceitam, e para concentrar o máximo de informações de ONGS e comunidades seguras.</p>
+                <img src="assets/equipe.jpg">
+            </div>
+        </section>
+        <section class="botao-container-up">
+            <a href="#link-nav">
+                <button type="button">
+                    <img src="assets/seta-btn-up.png">
+                </button>
+            </a>
+        </section>
+        <section class="contato" id="link-contato">
+            <header class="contato-cabecalho">
+                <span class="destaque-menu">CONTATO</span>
+                <h2 class="titulo-texto">Entre em contato conosco</h2>
+            </header>
+            <div class="contato-conteudo">
+            <div class="contato-conteudo-formulario">
+                <form name="contato">
+                    <input class="texto-base" type="text" placeholder="NOME COMPLETO" name="nome"/>
+                    <input  class="texto-base" type="email" placeholder="E-MAIL VÁLIDO" name="email"/>
+                    <textarea  class="texto-base-mensagem" placeholder="ESCREVA A SUA MENSAGEM..."></textarea>
+                    <input class="texto-base-botao" type="submit" value="ENVIAR MENSAGEM"/>
+                </form>
+            </div>
+            <div class="contato-conteudo-texto">
+                <ul>
+                    <li>
+                        <div class="contato-conteudo-texto-header">
+                            <img src="assets/telefone.png" width="26">
+                            <h3>ENTRE EM CONTATO CONOSCO ATRAVÉS DO NÚMERO</h3>
+                        </div>
+                        <div class="contato-conteudo-texto-texto">
+                            <p class="texto-contato">(11) 9 9876-5432 | (11) 3278-1234</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contato-conteudo-texto-header">
+                            <img src="assets/localizacao.png" width="29">
+                            <h3>LOCALIZAÇÃO</h3>
+                        </div>
+                        <div class="contato-conteudo-texto-texto">
+                            <p class="texto-contato">RUA DAS FLORES, 21 - JARDIM DOS SONHOS - SÃO PAULO / SP</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contato-conteudo-texto-header">
+                            <img src="assets/hora_funcionamento.png" width="32">
+                            <h3>HORÁRIO DE FUNCIONAMENTO</h3>
+                        </div>
+                        <div class="contato-conteudo-texto-texto">
+                            <p class="texto-contato">SEG-SEX 09h - 17h</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© Copyright 2024</p>
+        <p class="footer-opacity">Feito por Camila Brito</p>
+    </footer>
+</body>
+</html>
